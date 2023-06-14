@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Sangamesh Hiremath/ApiServices'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Sangamesh Hiremath' => 'sangamesh.hiremath@standardbank.co.za' }
-  s.source           = { :git => 'https://github.com/Sangamesh Hiremath/ApiServices.git', :tag => s.version.to_s }
+  s.author           = { 'Sangamesh Hiremath' => 'sangameshbh41@gmail.com' }
+  s.source           = { :git => 'https://github.com/sanguHiremath/api_service.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
