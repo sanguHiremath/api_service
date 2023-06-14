@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A538DE5730A3B3F5669BAFE /* ApiServices.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ApiServices.podspec; path = ../ApiServices.podspec; sourceTree = "<group>"; };
+		2A538DE5730A3B3F5669BAFE /* ApiServices.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ApiServices.podspec; path = ../ApiServices.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2BC4867335F2A0848DF34C27 /* Pods-ApiServices_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiServices_Example.debug.xcconfig"; path = "Target Support Files/Pods-ApiServices_Example/Pods-ApiServices_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ApiServices_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiServices_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		634ECF44231E5AD33A07E83B /* Pods-ApiServices_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiServices_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ApiServices_Tests/Pods-ApiServices_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		76EC2197585C334E6AB081B1 /* Pods-ApiServices_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiServices_Tests.release.xcconfig"; path = "Target Support Files/Pods-ApiServices_Tests/Pods-ApiServices_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		81D0EA47F25A9C7B56691649 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		81D0EA47F25A9C7B56691649 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A875C49B7EF88E7CFF560603 /* Pods_ApiServices_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiServices_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBCCF3A33F183D7A24D7F8C /* Pods-ApiServices_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiServices_Example.release.xcconfig"; path = "Target Support Files/Pods-ApiServices_Example/Pods-ApiServices_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E27EC826A450A8222CE31E22 /* Pods_ApiServices_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiServices_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA10B8F7377461CD13522ABC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FA10B8F7377461CD13522ABC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				634ECF44231E5AD33A07E83B /* Pods-ApiServices_Tests.debug.xcconfig */,
 				76EC2197585C334E6AB081B1 /* Pods-ApiServices_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
