@@ -15,7 +15,9 @@ public protocol ServiceRunnable {
 
 }
 
-public class ApiCaller: ServiceRunnable {
+public class ApiServiceCall: ServiceRunnable {
+    
+    public init(){}
     
     public func getApiData<T:Decodable>(requestUrl: URL, resultType: T.Type, completionHandler:@escaping(_ result: T)-> Void)
       {
@@ -26,7 +28,6 @@ public class ApiCaller: ServiceRunnable {
                   let decoder = JSONDecoder()
                   do {
                       let result = try decoder.decode(T.self, from: responseData!)
-                      debugPrint(result)
                       _=completionHandler(result)
                   }
                   catch let error{
