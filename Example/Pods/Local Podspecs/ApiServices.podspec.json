@@ -1,0 +1,22 @@
+{
+  "name": "ApiServices",
+  "version": "0.1.0",
+  "summary": "A short description of ApiServices.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sangamesh Hiremath/ApiServices",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sangamesh Hiremath": "sangamesh.hiremath@standardbank.co.za"
+  },
+  "source": {
+    "git": "https://github.com/Sangamesh Hiremath/ApiServices.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ApiServices/Classes/**/*"
+}

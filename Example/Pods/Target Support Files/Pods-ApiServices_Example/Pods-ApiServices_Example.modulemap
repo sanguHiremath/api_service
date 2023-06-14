@@ -1,0 +1,6 @@
+framework module Pods_ApiServices_Example {
+  umbrella header "Pods-ApiServices_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

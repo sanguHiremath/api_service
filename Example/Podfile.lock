@@ -1,0 +1,16 @@
+PODS:
+  - ApiServices (0.1.0)
+
+DEPENDENCIES:
+  - ApiServices (from `../`)
+
+EXTERNAL SOURCES:
+  ApiServices:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ApiServices: ce0276c032f47174183c2361691e0c1d0868b9ca
+
+PODFILE CHECKSUM: decbf2451b1e153d066f7f1913424326c13e22ac
+
+COCOAPODS: 1.12.1
