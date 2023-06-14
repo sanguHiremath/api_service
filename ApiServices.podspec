@@ -21,13 +21,13 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-   s.homepage         = 'https://github.com/sanguHiremath/firebaselogin'
+  s.homepage         = 'https://github.com/Sangamesh Hiremath/ApiServices'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '<sangamesh' => 'sangameshbh41@gmail.com' }
-  s.source           = { :git => "https://github.com/sanguHiremath/firebaselogin.git", :tag => s.version }
-  s.source_files     =   'ApiServices/**/*.swift'
+  s.author           = { 'Sangamesh Hiremath' => 'sangameshbh41@gmail.com' }
+  s.source           = { :git => 'https://github.com/sanguHiremath/api_service.git', :tag => s.version }
 
+  s.source_files     =   'ApiServices/**/*.swift'
   s.ios.deployment_target = '14.0'
   s.swift_version = "5.7"
- 
 end
